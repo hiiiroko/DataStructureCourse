@@ -1,11 +1,18 @@
-#include <iostream>
 #include "SqList.cpp"
-#include "SqList.h" // 引入头文件，调用函数
+#include "SqList.h"
 
-using namespace std;
+void SQExam();
 
 int main()
 {
+    SQExam();
+    return 0;
+}
+
+void SQExam()
+{
+    using namespace std;
+    using namespace SQListMethod;
     SqList L;                                                                         // 定义一个顺序线性表
     InitList_Sq(L);                                                                   // 初始化顺序线性表
     cout << "初始化后的顺序线性表的长度为：" << ListLength_Sq(L) << endl;             // 输出顺序线性表的长度
@@ -41,5 +48,4 @@ int main()
     DestroyList_Sq(L);                                                  // 销毁顺序线性表
     cout << "销毁后的顺序线性表的长度为：" << ListLength_Sq(L) << endl; // 输出顺序线性表的长度
     cout << "销毁后的顺序线性表是否为空：" << ListEmpty_Sq(L) << endl;  // 输出顺序线性表是否为空
-    return 0;
 }
