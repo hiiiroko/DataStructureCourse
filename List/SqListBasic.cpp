@@ -57,7 +57,7 @@ namespace SQListBasicMethod
 
     int LocateElem_Sq(SqList L, ElemType e)
     {
-        for (int i = 0; i < L.length - 1; i++)
+        for (int i = 0; i < L.length; i++)
             if (L.elem[i] == e)
                 return i + 1;
         return 0;
