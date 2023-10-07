@@ -1,5 +1,5 @@
-#ifndef SQLIST_H
-#define SQLIST_H
+#ifndef SqListBasic_H
+#define SqListBasic_H
 
 #include <iostream>
 #include <string>
