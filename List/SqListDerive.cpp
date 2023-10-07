@@ -45,22 +45,30 @@ namespace SQListDeriveMethod
             ListInsert_Sq(L, i + 1, *(array + i));
     }
 
-    Boolean Union_Sq(SqList A, SqList B, SqList &R)
+    void Union_Sq(SqList A, SqList B, SqList &R)
     {
         ClearList_Sq(R);
         ConnectList_Sq(A, B, R);
         PurifyList_Sq(R);
-        return TRUE;
     }
 
-    Boolean Intersection_Sq(SqList A, SqList B, SqList &R)
+    void Intersection_Sq(SqList A, SqList B, SqList &R)
     {
-
-        return TRUE;
+        ClearList_Sq(R);
+        SqList PA = CopyList_Sq(A);
+        PurifyList_Sq(PA);
+        SqList PB = CopyList_Sq(B);
+        PurifyList_Sq(PB);
+        ElemType elem;
+        for(int i = 1; i <= PA.length; i++)
+        {
+            GetElem_Sq(PA,i,elem);
+            if(LocateElem_Sq(PB,elem))
+                ListInsert_Sq(R,R.length+1,elem);
+        }
     }
 
-    Boolean Difference_Sq(SqList A, SqList B, SqList &R)
+    void Difference_Sq(SqList A, SqList B, SqList &R)
     {
-        return TRUE;
     }
 }

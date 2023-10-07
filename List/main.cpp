@@ -17,13 +17,12 @@ int main()
     PushItemByArray_Sq(B, 6, arrayB);
     ListTraverse_Sq(B);
 
-    SqList C;
-    InitList_Sq(C);
-    Union_Sq(A, B, C);
-    ListTraverse_Sq(C);
-
     SqList R;
     InitList_Sq(R);
+    Union_Sq(A, B, R);
+    ListTraverse_Sq(R);
+    Intersection_Sq(A, B, R);
+    ListTraverse_Sq(R);
 
     return 0;
 }

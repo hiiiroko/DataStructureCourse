@@ -9,8 +9,8 @@ using namespace SQListBasicMethod;
 namespace SQListDeriveMethod
 {
     void PushItemByArray_Sq(SqList &L, int length, int *array);
-    Boolean Intersection_Sq(SqList A, SqList B, SqList &R);
-    Boolean Union_Sq(SqList A, SqList B, SqList &R);
-    Boolean Difference_Sq(SqList A, SqList B, SqList &R);
+    void Intersection_Sq(SqList A, SqList B, SqList &R);
+    void Union_Sq(SqList A, SqList B, SqList &R);
+    void Difference_Sq(SqList A, SqList B, SqList &R);
 }
 #endif
