@@ -6,6 +6,6 @@
 
 namespace SQListDeriveMethod
 {
-    
+    void SQExam();
 }
 #endif
