@@ -35,5 +35,9 @@ namespace SQListBasicMethod
     bool ListInsert_Sq(SqList &L, int i, ElemType e);
     bool ListDelete_Sq(SqList &L, int i, ElemType &e);
     void ListTraverse_Sq(SqList L);
+    
+    SqList CopyList_Sq(SqList L);
+    void PurifyList_Sq(SqList &L);
+    void ConnectList_Sq(SqList A, SqList B, SqList &R);
 }
 #endif
