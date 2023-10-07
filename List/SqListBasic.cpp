@@ -1,8 +1,7 @@
-#include "SqList.h"
+#include "SqListBasic.h"
 
-namespace SQListMethod
+namespace SQListBasicMethod
 {
-    using namespace std;
     void increment(SqList &L)
     {
         ElemType *a;

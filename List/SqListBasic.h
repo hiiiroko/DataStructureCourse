@@ -8,7 +8,9 @@
 #define TRUE 1
 #define FALSE 0
 
-namespace SQListMethod
+using namespace std;
+
+namespace SQListBasicMethod
 {
     typedef int ElemType;
     typedef int Boolean;

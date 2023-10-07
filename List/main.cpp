@@ -1,5 +1,5 @@
-#include "SqList.cpp"
-#include "SqList.h"
+#include "SqListBasic.cpp"
+#include "SqListBasic.h"
 
 void SQExam();
 
@@ -11,8 +11,7 @@ int main()
 
 void SQExam()
 {
-    using namespace std;
-    using namespace SQListMethod;
+    using namespace SQListBasicMethod;
     SqList L;                                                                         // 定义一个顺序线性表
     InitList_Sq(L);                                                                   // 初始化顺序线性表
     cout << "初始化后的顺序线性表的长度为：" << ListLength_Sq(L) << endl;             // 输出顺序线性表的长度
