@@ -1,4 +1,6 @@
-#include "SqListDerive.h"
+// SqList_Derive.cpp
+
+#include "SqList_Derive.h"
 
 namespace SQListDeriveMethod
 {

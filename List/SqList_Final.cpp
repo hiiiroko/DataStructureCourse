@@ -1,5 +1,7 @@
-#include "SqListDerive.cpp"
-#include "SqListDerive.h"
+// SqList_Final.cpp
+
+#include "SqList_Derive.cpp"
+#include "SqList_Derive.h"
 
 int main()
 {

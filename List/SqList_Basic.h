@@ -1,5 +1,7 @@
-#ifndef SqListBasic_H
-#define SqListBasic_H
+// SqList_Basic.h
+
+#ifndef SqList_Basic_H
+#define SqList_Basic_H
 
 #include <iostream>
 #include <string>

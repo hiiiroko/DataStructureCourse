@@ -1,8 +1,10 @@
-#ifndef SqListDerive_H
-#define SqListDerive_H
+// SqListDerive.h
 
-#include "SqListBasic.cpp"
-#include "SqListBasic.h"
+#ifndef SqList_Derive_H
+#define SqList_Derive_H
+
+#include "SqList_Basic.cpp"
+#include "SqList_Basic.h"
 
 using namespace SQListBasicMethod;
 
